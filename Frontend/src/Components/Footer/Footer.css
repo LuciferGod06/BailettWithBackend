@@ -1,0 +1,164 @@
+#FooterTopDiv {
+    display: flex;
+    margin: 2% 5% 2% 3%;
+    align-items: center;
+    /* border: 1px solid; */
+}
+
+#FooterTopDiv>div:nth-of-type(1) {
+    width: 50%;
+    text-align: left;
+
+}
+
+#FooterTopDiv>div:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    width: 45%;
+}
+
+.FooterTopbarImage>img {
+    width: 350px;
+
+}
+
+.FooterTopbarInnerDiv {
+    align-items: center;
+    text-align: left;
+    margin-left: 7%;
+
+
+}
+
+.FooterTopbarInnerDiv {
+    font-weight: 500;
+}
+
+#FooterMiddleDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#FooterMiddleLeftDiv {
+    background-color: #322828;
+    color: white;
+    text-align: left;
+    padding-left: 8%;
+    padding-top: 5%;
+}
+
+#FooterMiddleLeftDiv>div:nth-of-type(1)>h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#FooterMiddleLeftDiv>div:nth-of-type(2) {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 4%;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+#FooterMiddleLeftDiv>div:nth-of-type(2)>input {
+    width: 60%;
+    padding: 3%;
+    background-color: #322828;
+    color: rgb(255, 255, 255);
+
+
+}
+
+#FooterMiddleLeftDiv>div:nth-of-type(2)>input:focus {
+    outline: none;
+    }
+
+#FooterMiddleLeftDiv>div:nth-of-type(2)>button {
+    background: white;
+    color: #322828;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3.5% 10% 3.5% 10%;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#FooterMiddleLeftDiv>div:nth-of-type(3) {
+    display: flex;
+    font-size: 13px;
+    gap: 2%;
+    margin-top: 2%;
+}
+
+/* icon section  */
+#FooterMiddleLeftDiv>div:nth-of-type(4) {
+    display: flex;
+    margin-top: 14%;
+    font-size: 26px;
+    gap: 20px;
+    margin-bottom: 12%;
+}
+
+/* last line  */
+
+#FooterMiddleLeftDiv>div:nth-of-type(5) {
+    display: flex;
+    gap: 6%;
+    margin-bottom: 4%;
+}
+
+#UnorderListDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 4%;
+    margin-top: 5%;
+
+}
+
+.UnorderListContent {
+    text-align: left;
+
+}
+
+.UnorderListContent>h1 {
+    font-weight: 600;
+    margin-bottom: 5%;
+
+
+}
+
+.UnorderListContent>ul>li {
+    list-style: none;
+    margin-top: 1%;
+    font-size: 15px;
+    font-weight: 400;
+    color: #4b3f3f;
+}
+
+#FooterMiddleRightDiv > div:nth-of-type(2){
+    display: flex;
+    gap: 5%;
+    margin-left: 4%;
+}
+
+#FooterMiddleRightDiv > div:nth-of-type(2) > div{
+    border: 1px solid #494040;
+    padding: 2% 4% 2% 4%;
+    align-items: center;
+    display: flex;
+    margin-top: 7%;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#FooterMiddleRightDiv > div:nth-of-type(3){
+    text-align: left;
+    font-size: 14px;
+
+    margin:9% 0 5% 4%;
+}
